@@ -1,4 +1,4 @@
-# Academy Portfolio
+# Undercontrol
 
 A Laravel-based web application for showcasing an academy's portfolio, including courses, projects, achievements, tools, FAQs, and features. Built with Filament for the admin panel.
 
@@ -76,4 +76,3 @@ chown -R www-data:www-data storage bootstrap/cache
   - Password: undercontrol
 
 
-# Undercontrol

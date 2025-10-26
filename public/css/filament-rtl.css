@@ -1,0 +1,10 @@
+body {
+    direction: rtl;
+    text-align: right;
+    font-family: 'Tajawal', sans-serif;
+}
+
+.fi-sidebar {
+    border-right: 1px solid #ddd;
+    border-left: none;
+}

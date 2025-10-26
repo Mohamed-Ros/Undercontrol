@@ -1,0 +1,26 @@
+<?php
+
+namespace App\Http\Controllers;
+
+use App\Models\Achievement;
+use Illuminate\Http\Request;
+
+class AchievementController extends Controller
+{
+    public function index()
+    {
+        $achievements = Achievement::all();
+        return response()->json(['achievements' => $achievements], 200);
+    }
+
+
+    public function show($id)
+    {
+        $achievement = Achievement::findOrFail($id);
+        return response()->json(['success' => $achievement], 200);
+    }
+
+
+
+    
+}
